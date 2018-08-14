@@ -20,6 +20,14 @@ INSERT INTO `database_name`.`user` (`user_name`, `user_pass`, `user_status`, `us
 VALUES ('dev', '12345', '1', '2');
 #--------------------------------------------------
 
+# Update
+UPDATE `database_name`.`user` SET `user_name`='dev' WHERE `user_id`='1';
+#---------------------------------------------------
+
+# Select
+SELECT * FROM `database_ce`.`user` WHERE `user_id`='1';
+#----------------------------------------------------
+
 # Delete Table
 DROP TABLE `database_name`.`user`;
 #----------------------------------------------------
