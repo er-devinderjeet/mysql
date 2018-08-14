@@ -14,7 +14,13 @@ CREATE TABLE `database_name`.`user` (
   `user_key` INT NOT NULL,
   PRIMARY KEY (`user_id`));
 #--------------------------------------------------
+
+# Insert Table
+INSERT INTO `database_name`.`user` (`user_name`, `user_pass`, `user_status`, `user_key`) 
+VALUES ('dev', '12345', '1', '2');
+#--------------------------------------------------
+
 # Delete Table
 DROP TABLE `database_name`.`user`;
-
+#----------------------------------------------------
 
