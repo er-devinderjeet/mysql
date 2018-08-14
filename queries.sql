@@ -25,6 +25,8 @@ UPDATE `database_name`.`user` SET `user_name`='dev' WHERE `user_id`='1';
 #---------------------------------------------------
 
 # Select
+SELECT * FROM `database_ce`.`user`;
+
 SELECT * FROM `database_ce`.`user` WHERE `user_id`='1';
 #----------------------------------------------------
 
